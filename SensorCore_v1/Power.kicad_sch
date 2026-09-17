@@ -4,6 +4,17 @@
 	(generator_version "10.0")
 	(uuid "8b836842-a2dd-4a45-8624-111cdd056a82")
 	(paper "A4")
+	(title_block
+		(title "Sensor Core PCB")
+		(date "2026-09-08")
+		(rev "v1.1")
+		(company "Vector Drive (MXET)")
+		(comment 1 "Lucas Ngo")
+		(comment 2 "Abhi Chennuru")
+		(comment 3 "Jaden Solorzano")
+		(comment 4 "Rudra Premani")
+		(comment 5 "Yi-Cheng Quan")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

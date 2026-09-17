@@ -4,6 +4,17 @@
 	(generator_version "10.0")
 	(uuid "2cf5e009-9281-4e20-aa79-80a367740d43")
 	(paper "A4")
+	(title_block
+		(title "Sensor Core PCB")
+		(date "2026-09-08")
+		(rev "v1.1")
+		(company "Vector Drive (MXET)")
+		(comment 1 "Lucas Ngo")
+		(comment 2 "Abhi Chennuru")
+		(comment 3 "Jaden Solorzano")
+		(comment 4 "Rudra Premani")
+		(comment 5 "Yi-Cheng Quan")
+	)
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card_Det1"
 			(exclude_from_sim no)

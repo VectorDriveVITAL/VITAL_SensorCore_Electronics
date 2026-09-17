@@ -1,0 +1,182 @@
+(footprint "Crystal_6x3.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.181359 0.003444 90)
+		(layer "F.SilkS")
+		(uuid "7bc336d8-ace4-4cb1-8d61-1366a595d6ac")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "8MHz 16pF Load"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e02787d1-afb0-47d0-ad10-b692ed7c694a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f71a856-4983-48e9-8a20-75d622e405b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Two pin crystal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a0179f1-e845-4eda-8855-551176e4bf1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey Part" "ABM3-8.000MHZ-D2Y-T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cae6f85-c0f9-4703-832e-31e523be5084")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Crystal*")
+	(sheetname "/")
+	(sheetfile "SensorPack_v1.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.9 -2.2)
+		(end -3.5 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4006a19a-2f54-45f9-b110-8e37d8951f73")
+	)
+	(fp_line
+		(start -2.9 2.2)
+		(end -3.5 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "644202f0-efeb-444a-8451-f97305e9f561")
+	)
+	(fp_line
+		(start 2.9 -2.2)
+		(end -2.9 -2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f514c716-d01d-4628-ab49-7dbbef4591c1")
+	)
+	(fp_line
+		(start 2.9 2.2)
+		(end -2.9 2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30be7db8-182e-4dbb-af14-3198bb098b09")
+	)
+	(fp_line
+		(start 3.5 -1.6)
+		(end 2.9 -2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "62a41b6c-2edc-45a8-8491-cf736d86407e")
+	)
+	(fp_line
+		(start 3.5 1.6)
+		(end 2.9 2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d1a0e1d5-73af-4ba7-9a14-a292189ab545")
+	)
+	(fp_rect
+		(start -3.7 -2.4)
+		(end 3.7 2.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "622422f9-8e06-4af6-bd6a-ea66c29503ef")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9dd44b08-c6c3-4594-9366-e06412cdd30b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.4 0)
+		(size 2.4 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "64e31da6-918c-4914-b974-c1704738dafe")
+	)
+	(pad "2" smd roundrect
+		(at 2.4 0)
+		(size 2.4 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "fb0acf46-7ffa-4374-b3cd-f7a5bb55f8d8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D Files/ABM3-8.000MHZ-D2Y-T.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
