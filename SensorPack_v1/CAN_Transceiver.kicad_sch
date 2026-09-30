@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "a6aeb905-cd17-4df7-b180-b320a8af0a66")
 	(paper "A4")
+	(title_block
+		(title "Sensor Pack Board")
+		(date "2026-09-24")
+		(rev "1.0")
+		(company "Vector Drive")
+		(comment 1 "By: Lucas Ngo")
+	)
 	(lib_symbols
 		(symbol "Capstone_Symbols:C"
 			(pin_numbers
@@ -1961,6 +1968,17 @@
 				)
 			)
 		)
+		(property "Digikey Part" "MCP2562-E/SN"
+			(at 93.98 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "a690582b-0463-4783-b22d-5c06618d0d31")
 		)
@@ -2060,7 +2078,7 @@
 				)
 			)
 		)
-		(property "Digikey Part" ""
+		(property "Digikey Part" "RMCF0603FT10R0"
 			(at 64.77 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -2373,7 +2391,7 @@
 				)
 			)
 		)
-		(property "Digikey Part" ""
+		(property "Digikey Part" "RMCF0603FT10R0"
 			(at 64.77 69.85 90)
 			(hide yes)
 			(show_name no)

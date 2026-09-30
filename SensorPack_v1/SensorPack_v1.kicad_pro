@@ -253,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -539,7 +539,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -698,7 +698,7 @@
         "uuid": "7f033487-c793-47e5-80dd-4bcaea87e7a6"
       }
     ],
-    "used_designators": "R8-17,J1,J3,J5-10,#PWR19,#PWR29-51,JP1-14",
+    "used_designators": "R8-17,J1,J3,J5-10,#PWR19,#PWR29-51,H1,JP1-14,U4,TP1-2",
     "variants": []
   },
   "sheets": [
