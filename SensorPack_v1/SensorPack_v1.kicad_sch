@@ -4184,7 +4184,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_PMOS_DGS"
+		(symbol "Transistor_FET:Q_PMOS_GSD"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -4205,7 +4205,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_PMOS_DGS"
+			(property "Value" "Q_PMOS_GSD"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4238,7 +4238,7 @@
 					)
 				)
 			)
-			(property "Description" "P-MOSFET transistor, drain/gate/source"
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4260,7 +4260,7 @@
 					)
 				)
 			)
-			(symbol "Q_PMOS_DGS_0_1"
+			(symbol "Q_PMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -4427,11 +4427,11 @@
 					)
 				)
 			)
-			(symbol "Q_PMOS_DGS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_PMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4446,10 +4446,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4465,9 +4465,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8759,7 +8759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24072333-778f-4395-9151-2a18b9d2c678")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 142.24 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8843,7 +8843,7 @@
 		(instances
 			(project "SensorPack_v1"
 				(path "/7f033487-c793-47e5-80dd-4bcaea87e7a6"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9884,6 +9884,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 73.66 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 73.66 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11249,7 +11260,7 @@
 				)
 			)
 		)
-		(property "Digikey Part" "CL10B104KB8NFNC"
+		(property "Digikey Part" "CL10B104KO8NNNC"
 			(at 105.41 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11362,6 +11373,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 73.66 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "559f9f98-91ba-4fce-8780-ac115b2f1fa8")
 		)
@@ -11457,7 +11479,7 @@
 				)
 			)
 		)
-		(property "Digikey Part" "CL21A106KOQNNNE"
+		(property "Digikey Part" "CL21A106KPCLQNC"
 			(at 115.57 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11792,7 +11814,7 @@
 				)
 			)
 		)
-		(property "Digikey Part" "CL21A106KOQNNNE"
+		(property "Digikey Part" "CL21A106KPCLQNC"
 			(at 55.88 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -12044,7 +12066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bbde011-5725-4a24-8af9-5ee9a4cbb507")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 142.24 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12128,7 +12150,7 @@
 		(instances
 			(project "SensorPack_v1"
 				(path "/7f033487-c793-47e5-80dd-4bcaea87e7a6"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12587,7 +12609,7 @@
 				)
 			)
 		)
-		(property "Digikey Part" "5218738F"
+		(property "Digikey Part" "WP59SURKZGW"
 			(at 153.67 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -12761,6 +12783,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 113.03 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 113.03 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -13175,7 +13208,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_DGS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 120.65 172.72 0)
 		(mirror x)
 		(unit 1)
@@ -13197,7 +13230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TLV75533"
+		(property "Value" "DMP2045U-7"
 			(at 127 171.4501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13208,7 +13241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "Capstone_Footprints:SOT-23-3"
 			(at 125.73 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -13230,7 +13263,7 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/gate/source"
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 120.65 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -13241,7 +13274,18 @@
 				)
 			)
 		)
-		(property "Digikey Part" "TLV75533PDBVR"
+		(property "Digikey Part" "DMP2045U-7"
+			(at 120.65 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 120.65 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -13726,7 +13770,7 @@
 				)
 			)
 		)
-		(property "Digikey Part" "CL10B104KB8NFNC"
+		(property "Digikey Part" "CL10B104KO8NNNC"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -14088,7 +14132,7 @@
 				)
 			)
 		)
-		(property "Digikey Part" "CL10B104KB8NFNC"
+		(property "Digikey Part" "CL10B104KO8NNNC"
 			(at 64.77 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -14866,6 +14910,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 66.04 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
 			(at 66.04 99.06 0)
 			(hide yes)
 			(show_name no)
