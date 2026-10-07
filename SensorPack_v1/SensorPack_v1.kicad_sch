@@ -10420,7 +10420,7 @@
 				)
 			)
 		)
-		(property "Digikey Part" ""
+		(property "Digikey Part" "M12A05PMMRSF7003"
 			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10716,7 +10716,7 @@
 				)
 			)
 		)
-		(property "Digikey Part" ""
+		(property "Digikey Part" "M12A05PFFRSF7003"
 			(at 82.55 62.23 0)
 			(hide yes)
 			(show_name no)

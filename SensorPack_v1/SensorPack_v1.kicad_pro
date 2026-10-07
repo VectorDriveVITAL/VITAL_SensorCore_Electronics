@@ -542,7 +542,7 @@
       "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SensorPack_v1.step",
       "svg": "",
       "vrml": ""
     },
