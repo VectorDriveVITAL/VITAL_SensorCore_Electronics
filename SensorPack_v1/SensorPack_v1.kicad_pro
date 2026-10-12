@@ -253,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.0"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -542,7 +542,7 @@
       "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "SensorPack_v1.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -698,7 +698,7 @@
         "uuid": "7f033487-c793-47e5-80dd-4bcaea87e7a6"
       }
     ],
-    "used_designators": "R1-3,R8-17,J1,J3,J5-10,D3,#PWR13,#PWR18-19,#PWR21,#PWR29-54,H1,JP1-14,U4,TP1-2,LED1,Q1-2",
+    "used_designators": "J1,J3,J5-10,R8-17,#PWR19,#PWR29-51,JP1-14",
     "variants": []
   },
   "sheets": [

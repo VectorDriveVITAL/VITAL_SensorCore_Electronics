@@ -1,0 +1,170 @@
+(footprint "M12x5_A_Circular_Connector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.75 3.25 315)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "efcd2cf2-8ff9-4f06-834b-e14b2a94f78b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "M12x5 A-Type"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "47a86c08-0fae-43df-bfdd-e4d0849805f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12af8c70-7570-499a-af5c-00a17d8db20c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x05, script generated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd8c16b1-de28-4325-81d8-e5a42e247a7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey Part" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a7b452f-dc59-4f1d-87a7-09ded483010a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 3 -2.5) (xy 2.5 -3) (xy 2.25 -2.25)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "19761604-3268-4c98-9b81-e88953cbfc43")
+	)
+	(fp_poly
+		(pts
+			(xy 3 -2.5) (xy 2.5 -3) (xy 2.25 -2.25)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "dc3f42c1-7dad-4172-b7eb-46ed67e8feb3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "18c5c226-6f52-4ec5-bdb2-9f87d09d2b98")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2d8c37d6-87ad-4048-ba74-556f9e21409d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2.5 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d0d8fa79-e577-4bbc-8486-e595983d04a5")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.5)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc26e53e-eacb-4668-a7b9-81764897fb5b")
+	)
+	(pad "3" thru_hole circle
+		(at -2.5 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92a57e51-0b01-41cc-9462-3234c2070f53")
+	)
+	(pad "4" thru_hole circle
+		(at 0 2.5)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1215ac7a-cafc-45b5-afc2-96299d59ceb5")
+	)
+	(pad "5" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "619b9a00-154f-48dc-ac93-813dc2bf4b97")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D Files/M12A-05PMMP-SF8001-STP.stp"
+		(offset
+			(xyz 0 0 24)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 45)
+		)
+	)
+)

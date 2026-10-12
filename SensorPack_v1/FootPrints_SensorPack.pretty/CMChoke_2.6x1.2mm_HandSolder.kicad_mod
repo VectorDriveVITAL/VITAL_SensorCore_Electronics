@@ -1,0 +1,149 @@
+(footprint "CMChoke_2.6x1.2mm_HandSolder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.5 -1.75 180)
+		(layer "F.SilkS")
+		(uuid "32091257-904e-4d71-a172-b94bc179d3d7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CM_Choke"
+		(at 0 -0.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "17d88e1d-969a-4428-a522-e03e86700df5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdae23b7-d806-4895-a44e-65656e2be0d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Coupled inductor with ferrite core"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "306bb5b2-4697-4197-8898-94d653579dcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey Part" "SCM2012FS181MDG"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4b6ed95-7a97-490f-b1d0-86c755e4b9a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -1.1)
+		(end 1.6 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "07f044d4-4e1d-444f-a84f-a5140d6dc462")
+	)
+	(fp_line
+		(start -1.6 1.1)
+		(end 1.6 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bfc70aae-0b07-43f2-b7bf-644392aa54e2")
+	)
+	(fp_rect
+		(start -2.2 -1.2)
+		(end 2.2 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c7a926d7-8ffd-430a-b2f5-f6f340c45bfc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "abc7be8f-5339-44ff-9ce2-5d1cb0897aee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.2 -0.5)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -0.1)
+		(uuid "4338a7d9-b916-4c7d-95f7-2927866d1ad1")
+	)
+	(pad "2" smd roundrect
+		(at 1.2 -0.5)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -0.1)
+		(uuid "b4ad738f-cdfa-41e0-b225-0a87c25602b5")
+	)
+	(pad "3" smd roundrect
+		(at -1.2 0.5)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -0.1)
+		(uuid "cb3cff7a-905d-4da8-a08d-1982e512739d")
+	)
+	(pad "4" smd roundrect
+		(at 1.2 0.5)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -0.1)
+		(uuid "030db957-1243-48f0-ba1a-b531c7c2f160")
+	)
+	(embedded_fonts no)
+)
