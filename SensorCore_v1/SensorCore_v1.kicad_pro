@@ -621,6 +621,72 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -679,7 +745,7 @@
         "uuid": "7f033487-c793-47e5-80dd-4bcaea87e7a6"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D2-5,#PWR6-7,#PWR12-13,#PWR18,#PWR20-21,#PWR29,#PWR41-60,C6,C20,C22-25,TP1-2,FB2,F1-2,U6-8,J3,J5-7,J10-11,R5-20,LED1,Q1-4,SW1-2,L1-2,H1-3",
     "variants": []
   },
   "sheets": [
@@ -698,6 +764,10 @@
     [
       "48101682-9058-4889-ac83-741cfcdd5dc5",
       "SD_Card"
+    ],
+    [
+      "98dc11b1-07ab-4569-b928-09dd77510aef",
+      "Wireless Module"
     ]
   ],
   "text_variables": {},

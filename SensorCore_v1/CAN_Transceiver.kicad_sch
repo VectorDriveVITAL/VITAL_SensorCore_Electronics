@@ -16,7 +16,7 @@
 		(comment 5 "Yi-Cheng Quan")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "Project:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -171,7 +171,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS_Dual_AAC"
+		(symbol "Project:D_TVS_Dual_AAC"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -390,7 +390,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Ferrite_Coupled"
+		(symbol "Project:L_Ferrite_Coupled"
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -887,147 +887,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Interface_CAN_LIN:MCP2562-E-SN"
+		(symbol "Project:MCP2562-E-SN"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1265,6 +1125,146 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Project:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1837,6 +1837,46 @@
 		)
 		(uuid "fe19a818-b2e5-4172-b544-2629f1f4748c")
 	)
+	(label "Net-(U2-CANH)"
+		(at 81.28 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9932ea5-2ade-4b7c-b8c4-4cb19b8ff255")
+	)
+	(label "Net-(U2-CANL)"
+		(at 81.28 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de280404-5143-47e4-87d8-b538ea7060fb")
+	)
+	(label "Net-(U2-CANH)"
+		(at 81.28 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e05e29e8-012e-4765-919e-68235bdbe674")
+	)
+	(label "Net-(U2-CANL)"
+		(at 81.28 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea6eb067-5824-4350-ada1-8d70d9a64c70")
+	)
 	(hierarchical_label "CANL"
 		(shape input)
 		(at 40.64 74.93 180)
@@ -1893,7 +1933,7 @@
 		(uuid "fe0b2add-4f1c-4a35-9274-653253179bbd")
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Project:R")
 		(at 44.45 74.93 270)
 		(mirror x)
 		(unit 1)
@@ -1905,7 +1945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1695a90b-4417-4a92-ab27-77bcc0913cea")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 44.45 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1925,7 +1965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capstone Footprints:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 44.45 76.708 90)
 			(hide yes)
 			(show_name no)
@@ -1969,6 +2009,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 44.45 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 44.45 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7616ebab-b283-43f2-8541-f08ace595acd")
 		)
@@ -1978,14 +2040,14 @@
 		(instances
 			(project "SensorCore_v1"
 				(path "/7f033487-c793-47e5-80dd-4bcaea87e7a6/48e3238f-f116-44df-bab8-01919a7a82f8"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Interface_CAN_LIN:MCP2562-E-SN")
+		(lib_id "Project:MCP2562-E-SN")
 		(at 93.98 72.39 0)
 		(mirror y)
 		(unit 1)
@@ -1997,7 +2059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1898c719-5955-4c17-a918-f5ee679183b0")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 97.0981 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2019,7 +2081,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capstone Footprints:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 93.98 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2043,6 +2105,39 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, SOIC-8"
+			(at 93.98 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 93.98 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 93.98 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 93.98 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2080,14 +2175,14 @@
 		(instances
 			(project "SensorCore_v1"
 				(path "/7f033487-c793-47e5-80dd-4bcaea87e7a6/48e3238f-f116-44df-bab8-01919a7a82f8"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Project:C")
 		(at 88.9 53.34 0)
 		(mirror y)
 		(unit 1)
@@ -2099,7 +2194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "199f0ebb-0676-40cb-bd73-9239e1653325")
-		(property "Reference" "C8"
+		(property "Reference" "C3"
 			(at 85.09 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2121,7 +2216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capstone Footprints:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 87.9348 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2165,6 +2260,39 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 88.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 88.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59385bdc-8a30-4fe6-82cc-484c8ff23984")
 		)
@@ -2174,14 +2302,14 @@
 		(instances
 			(project "SensorCore_v1"
 				(path "/7f033487-c793-47e5-80dd-4bcaea87e7a6/48e3238f-f116-44df-bab8-01919a7a82f8"
-					(reference "C8")
+					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Dual_AAC")
+		(lib_id "Project:D_TVS_Dual_AAC")
 		(at 58.42 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -2212,7 +2340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Capstone Footprints:SOT-23-3"
 			(at 54.61 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2256,6 +2384,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 58.42 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 58.42 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bfab0863-c234-4ee0-bcb7-d472e1edc0ce")
 		)
@@ -2275,7 +2425,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Project:R")
 		(at 44.45 69.85 270)
 		(mirror x)
 		(unit 1)
@@ -2287,7 +2437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20057b7e-c17e-4c97-9065-b2a6f1a76204")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 44.45 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2307,7 +2457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capstone Footprints:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 44.45 71.628 90)
 			(hide yes)
 			(show_name no)
@@ -2351,6 +2501,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 44.45 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 44.45 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15df6eba-76ba-4151-9a02-eb0c7fd5b5b8")
 		)
@@ -2360,7 +2532,7 @@
 		(instances
 			(project "SensorCore_v1"
 				(path "/7f033487-c793-47e5-80dd-4bcaea87e7a6/48e3238f-f116-44df-bab8-01919a7a82f8"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2524,7 +2696,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite_Coupled")
+		(lib_id "Project:L_Ferrite_Coupled")
 		(at 73.66 72.39 0)
 		(mirror x)
 		(unit 1)
@@ -2555,7 +2727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Extra_Footprints:CMChoke_2.6x1.2mm_HandSolder"
+		(property "Footprint" "Capstone Footprints:CMChoke_2.6x1.2mm_HandSolder"
 			(at 73.66 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2589,6 +2761,28 @@
 			)
 		)
 		(property "Digikey Part" "SCM2012FS181MDG"
+			(at 73.66 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 73.66 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 73.66 72.39 0)
 			(hide yes)
 			(show_name no)
