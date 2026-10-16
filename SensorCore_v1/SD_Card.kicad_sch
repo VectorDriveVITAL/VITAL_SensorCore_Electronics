@@ -7,7 +7,7 @@
 	(title_block
 		(title "Sensor Core PCB")
 		(date "2026-09-08")
-		(rev "v1.1")
+		(rev "v1.0")
 		(company "Vector Drive (MXET)")
 		(comment 1 "Lucas Ngo")
 		(comment 2 "Abhi Chennuru")
@@ -1705,126 +1705,6 @@
 		)
 		(uuid "f9ff92e2-7dcc-46f6-a606-fa725758e132")
 	)
-	(label "Net-(J1-DAT2)"
-		(at 140.97 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0ae1109a-1dad-42c0-a4a4-70e90cda4a83")
-	)
-	(label "Net-(J1-CLK)"
-		(at 140.97 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2aa9bb27-a1a3-4cd9-8ae6-281a4e17baed")
-	)
-	(label "Net-(J1-DAT3{slash}CD)"
-		(at 140.97 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5bdfb8f2-44e9-4f1b-ae01-e47039eb8ff6")
-	)
-	(label "Net-(J1-CLK)"
-		(at 140.97 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7481818e-a9ae-4fd3-ae94-4be06215690f")
-	)
-	(label "Net-(J1-DAT3{slash}CD)"
-		(at 140.97 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7640b595-53d9-40a8-a590-e0c0e888deb3")
-	)
-	(label "Net-(J1-DAT1)"
-		(at 140.97 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "862f0617-e309-4c83-834e-653b84c53f92")
-	)
-	(label "Net-(J1-CMD)"
-		(at 125.73 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad8bf155-9f1c-43ca-930c-2848764a70bd")
-	)
-	(label "Net-(J1-DAT0)"
-		(at 125.73 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d1837c93-919b-4764-a55a-d983d660b804")
-	)
-	(label "Net-(J1-DAT0)"
-		(at 125.73 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de5d5e7d-256a-4292-b598-d27fb9b5429c")
-	)
-	(label "Net-(J1-DAT2)"
-		(at 140.97 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "de6bb2dd-1d51-45da-8b01-85765942a31c")
-	)
-	(label "Net-(J1-DAT1)"
-		(at 140.97 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f4eba850-86a3-4a8a-af18-99a73a703282")
-	)
-	(label "Net-(J1-CMD)"
-		(at 125.73 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa2f1bef-b3c2-4c96-9681-fddc76c8524d")
-	)
 	(hierarchical_label "MISO"
 		(shape input)
 		(at 91.44 101.6 180)
@@ -2124,6 +2004,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 110.49 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part" "EMIF06-MSD02N16"
 			(at 110.49 95.25 0)
 			(hide yes)
 			(show_name no)

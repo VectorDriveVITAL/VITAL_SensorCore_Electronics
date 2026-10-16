@@ -1,0 +1,190 @@
+(footprint "IFSC2020DEER5R6M01"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 180)
+		(layer "F.SilkS")
+		(uuid "09d55ef8-091e-4b3d-933b-335b22d528c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "5u6"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "95996e77-be08-4860-a925-1bfd58337360")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e77acb8a-5051-4c5d-b719-0a87da988f68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c59dbd6-39b4-4eaf-8427-74213f321caf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c85cca7-5a37-4988-a08f-3f4f45dc9b96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9fc0420-6ddc-4673-9ccc-856f80ed8091")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey Part" "IFSC2020DEER5R6M01"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a17564b-93e5-4fa1-af63-d488a0adddd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+	(sheetname "/Power/")
+	(sheetfile "Power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.8 -2.7)
+		(end 1.8 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fc5d2582-98b7-4cfa-af5f-1e4fd87a870a")
+	)
+	(fp_line
+		(start -1.8 2.7)
+		(end 1.8 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d4cec4f-9255-4b8b-a8c6-d10f0587411b")
+	)
+	(fp_rect
+		(start -2.85 -2.403882)
+		(end -1.05 2.296118)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "ae5df357-91a6-414d-8aff-894f2734796e")
+	)
+	(fp_rect
+		(start 1.05 -2.35)
+		(end 2.85 2.35)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "01dcee3f-4661-4898-80a2-e32ea3198c9c")
+	)
+	(fp_rect
+		(start -3.7 -2.9)
+		(end 3.7 2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e7f6730d-d7ee-4b29-9639-91952e97f27e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3d49aaa6-ce75-427b-ada0-b597d1091f69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.3 0)
+		(size 2.6 5.2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "1980aefc-7de8-4ad9-a73b-260473d143ae")
+	)
+	(pad "2" smd roundrect
+		(at 2.3 0)
+		(size 2.6 5.2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "5c4ffe7e-8342-431a-8009-e979b411a68c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D Files/IND_IFSC-2020DE-01_VIS.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

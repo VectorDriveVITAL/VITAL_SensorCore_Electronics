@@ -1,0 +1,258 @@
+(footprint "Nidec_Copal_CAS-120A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Slide Switch, SMD, Nidec CAS series, https://www.nidec-components.com/e/catalog/switch/cas.pdf")
+	(tags "SMD slide switch Nidec CAS 120A ")
+	(property "Reference" "REF**"
+		(at 0 -3.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0f451256-f607-4c94-b403-28adaeef0d91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT"
+		(at 0 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2c81342c-0165-48d9-b95e-4ae429438935")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af8e3565-deee-45cb-a765-79cc62de6802")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switch, single pole double throw"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bb90b24-ab2f-4d05-91b3-6608ef11332a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6927aaf9-1868-4bb6-961e-6eaa8f55f947")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72f4a9ef-5cc6-402a-8935-390d58ec5b23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Power/")
+	(sheetfile "Power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.36 -2.81)
+		(end 1.36 -2.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62aafda8-c471-46e9-9677-6a810ab0531a")
+	)
+	(fp_line
+		(start -1.36 -2.55)
+		(end -1.9 -2.55)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fdebfe69-ae34-4b98-9629-f30f36ce8d16")
+	)
+	(fp_line
+		(start -1.36 -2.55)
+		(end -1.36 -2.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00ae786a-9eef-4129-8032-7b8c6288f890")
+	)
+	(fp_line
+		(start -1.36 -0.98)
+		(end -1.36 0.98)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4aa5f407-5beb-4561-9e25-21c03fe661f1")
+	)
+	(fp_line
+		(start -1.36 2.81)
+		(end -1.36 2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b268e6eb-6d03-4222-8ec8-c266ed67fda6")
+	)
+	(fp_line
+		(start 1.35 2.81)
+		(end -1.35 2.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47a4189f-3ba4-4813-910e-074ab5e293c8")
+	)
+	(fp_line
+		(start 1.36 -2.81)
+		(end 1.36 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37b47339-f6c4-49b3-931e-1dc85712c28c")
+	)
+	(fp_line
+		(start 1.36 0.8)
+		(end 1.36 2.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "309cdb18-186f-4e21-b49c-9fca444f6c7d")
+	)
+	(fp_rect
+		(start -0.25 -1.15)
+		(end 0.25 1.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "3ac6592a-55ee-4250-b5f2-95c1b88c2afe")
+	)
+	(fp_rect
+		(start -0.1 0.45)
+		(end 0.1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Cmts.User")
+		(uuid "7035537a-e04e-4c23-9e9c-c8ec65f2f296")
+	)
+	(fp_rect
+		(start 2.2 -2.95)
+		(end -2.2 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "846d9432-fbc6-4a02-b661-a7299c66905c")
+	)
+	(fp_poly
+		(pts
+			(xy 1.25 -2.7) (xy -0.625 -2.7) (xy -1.25 -2.075) (xy -1.25 2.7) (xy 1.25 2.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "904f8d41-8553-45d0-a140-e9ee1291998d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f4651372-1ab7-4d4b-b733-5b289e53259e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.15 -1.75 270)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c17880df-9415-4268-b674-04314150833b")
+	)
+	(pad "2" smd roundrect
+		(at 1.15 0 270)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8f79d21b-55bc-4993-a351-4620fd93a6f6")
+	)
+	(pad "3" smd roundrect
+		(at -1.15 1.75 270)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a1ea117a-1a09-47f7-82bc-0af483c321ed")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/Nidec_Copal_CAS-120A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

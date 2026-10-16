@@ -6,20 +6,20 @@
 	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 	(tags "resistor handsolder")
 	(property "Reference" "REF**"
-		(at 0 -1.43 180)
+		(at 0 -1.139026 0)
 		(layer "F.SilkS")
-		(uuid "597bbdc3-4ef9-40ef-a13d-748e8b0ac5d4")
+		(uuid "10f34107-d3ab-4f2f-a7f2-995d982731b5")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
 	)
-	(property "Value" "NTC10k B3950 SMT"
-		(at 0 1.43 180)
+	(property "Value" "330R"
+		(at 0 1.43 0)
 		(layer "F.Fab")
-		(uuid "0738504b-a767-475a-b9b8-5c67da8d57e6")
+		(uuid "18fc4360-d1c8-4747-9104-674d2f5c7e56")
 		(effects
 			(font
 				(size 1 1)
@@ -28,21 +28,21 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9a68f4fa-fdb7-49ec-bf86-1416d5e7ec6e")
+		(uuid "c54fc867-fdc9-4456-afb0-571bc3187127")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-		(at 0 0 180)
+	(property "Description" "Resistor"
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6e88ae89-7c82-4935-88a5-bccf9652747d")
+		(uuid "43001609-d5e4-4c26-950f-1834d04c1666")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,10 +50,10 @@
 		)
 	)
 	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "5e4e949b-b07b-4825-bece-c67adf25d0a1")
+		(uuid "4e1128cf-0646-4e4d-85f4-d45f3a1bd3b8")
 		(effects
 			(font
 				(size 1 1)
@@ -61,12 +61,12 @@
 			)
 		)
 	)
-	(property "Digikey Part" "JSNB104J395FABXG"
+	(property "Digikey Part" "RMCF0603FT4K70"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f68fa9aa-889e-4b24-92c4-88645e55e061")
+		(uuid "717ad94b-c847-4f13-9d9d-9a40fa14321d")
 		(effects
 			(font
 				(size 1 1)
@@ -74,9 +74,35 @@
 			)
 		)
 	)
-	(property ki_fp_filters "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*")
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "819f81c2-95e7-4d36-9948-0bef5e68c7d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bc0f32d-5417-4ef5-9f61-bcc913f89777")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "R_*")
 	(sheetname "/")
-	(sheetfile "SensorPack_v1.kicad_sch")
+	(sheetfile "SensorCore_v1.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -87,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "55386d17-a3b6-40bb-95e6-44131c69b1b2")
+		(uuid "671fcdc9-984f-4f43-a73f-e82e03bfd142")
 	)
 	(fp_line
 		(start -0.254724 0.5225)
@@ -97,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7e25f3a5-c5e7-4b83-8080-fee939b57c9d")
+		(uuid "716c5898-ba26-48ed-b269-b648899e7592")
 	)
 	(fp_rect
 		(start -1.65 -0.73)
@@ -108,7 +134,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c700e0a6-f6ff-4e4b-92e5-16969bceb12c")
+		(uuid "f91739bd-7322-4bbe-ac34-e97d95ae1266")
 	)
 	(fp_rect
 		(start -0.8 -0.4125)
@@ -119,12 +145,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "1d105e76-9eb4-475a-96ba-37b8dcbf7090")
+		(uuid "abf816b5-547c-45b4-9e72-70fc2919395b")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "d1ce8b90-2004-4d3b-b1f1-dfc48ae118b4")
+		(uuid "8085afd8-dc45-459b-a8cb-e0a729d73715")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -137,14 +163,14 @@
 		(size 0.975 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "8d51a860-70d5-4ab3-bad3-ccb7aa5b10b0")
+		(uuid "c7bd0585-c45a-4f93-b487-3db6d15e1849")
 	)
 	(pad "2" smd roundrect
 		(at 0.9125 0)
 		(size 0.975 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "ea778e3c-d395-424b-b0c8-7dd4ea433b40")
+		(uuid "f44001a9-99e9-4f7d-9753-7f5596cd1d54")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"

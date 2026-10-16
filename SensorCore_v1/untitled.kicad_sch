@@ -7,7 +7,7 @@
 	(title_block
 		(title "Sensor Core PCB")
 		(date "2026-09-08")
-		(rev "v1.1")
+		(rev "v1.0")
 		(company "Vector Drive (MXET)")
 		(comment 1 "Lucas Ngo")
 		(comment 2 "Abhi Chennuru")
@@ -1692,6 +1692,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 81.28) (xy 123.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3192d537-48c2-4d04-bcb5-ef30aa12036c")
+	)
+	(wire
+		(pts
 			(xy 168.91 125.73) (xy 189.23 125.73)
 		)
 		(stroke
@@ -1699,16 +1709,6 @@
 			(type default)
 		)
 		(uuid "358e0757-9655-4a7f-b16b-a40b0e88212e")
-	)
-	(wire
-		(pts
-			(xy 100.33 82.55) (xy 128.27 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "408d16cc-4a5a-4efc-bb38-b4aa33b2e0bb")
 	)
 	(wire
 		(pts
@@ -1722,6 +1722,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 78.74) (xy 125.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e7643dc-4ccd-4b82-9141-80894511b630")
+	)
+	(wire
+		(pts
 			(xy 132.08 187.96) (xy 132.08 184.15)
 		)
 		(stroke
@@ -1732,7 +1742,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 85.09) (xy 128.27 85.09)
+			(xy 113.03 81.28) (xy 123.19 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1759,6 +1769,16 @@
 			(type default)
 		)
 		(uuid "76ae8ace-0374-4986-9e4e-93a06f1dfbfb")
+	)
+	(wire
+		(pts
+			(xy 125.73 82.55) (xy 128.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dae7b7b-e13a-4fd0-b1dc-5bc945f19565")
 	)
 	(wire
 		(pts
@@ -1812,6 +1832,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 78.74) (xy 113.03 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b71016-4781-4907-b098-8c27c4e8a221")
+	)
+	(wire
+		(pts
 			(xy 114.3 179.07) (xy 132.08 179.07)
 		)
 		(stroke
@@ -1820,35 +1850,15 @@
 		)
 		(uuid "ff6695a4-507c-4dbb-866f-0d5ce71a545a")
 	)
-	(label "Net-(U7-BOOT0)"
-		(at 128.27 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+	(wire
+		(pts
+			(xy 123.19 85.09) (xy 128.27 85.09)
 		)
-		(uuid "0e6c5c84-0f08-4359-9dd4-808764cfbedf")
-	)
-	(label "Net-(U7-BOOT0)"
-		(at 128.27 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "118ccccd-e0e3-4d39-95fd-c14ac8c65647")
-	)
-	(label "unconnected-(U7-PA5{slash}SPI1_CLK-Pad15)"
-		(at 168.91 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14035ff4-04d5-424e-9da5-237b82242cfa")
+		(uuid "ffe614e5-c10e-4053-bdda-d835dee3e3d2")
 	)
 	(label "RAK3172_SWDIO"
 		(at 114.3 179.07 0)
@@ -1859,16 +1869,6 @@
 			(justify left bottom)
 		)
 		(uuid "144d82f9-52ba-43b2-a839-22547715f7a9")
-	)
-	(label "unconnected-(U7-PA12{slash}SCL-Pad9)"
-		(at 168.91 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "153a5786-36d5-40cd-aff7-b39df28979f1")
 	)
 	(label "RAK3172_SWCLK"
 		(at 189.23 125.73 180)
@@ -1891,7 +1891,7 @@
 		(uuid "1d2f4345-ef57-4034-87db-7a4d9a1bbb45")
 	)
 	(label "RAK3172_RST"
-		(at 100.33 82.55 0)
+		(at 113.03 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1899,36 +1899,6 @@
 			(justify left bottom)
 		)
 		(uuid "1fcfb5c9-8a28-4c58-b642-b2137f8049ce")
-	)
-	(label "unconnected-(U7-PB3{slash}PIN_A0-Pad32)"
-		(at 128.27 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26024f1b-6655-4108-97f1-49fd1cd81c40")
-	)
-	(label "unconnected-(U7-PB4{slash}PIN_A1-Pad31)"
-		(at 128.27 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2b742bd4-a850-4d5d-8123-5a5fdcde8dee")
-	)
-	(label "unconnected-(U7-PA6{slash}SPI1_MISO-Pad14)"
-		(at 168.91 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3cbe9b93-a3d5-46ff-b16f-715426662526")
 	)
 	(label "RAK3172_RST"
 		(at 114.3 181.61 0)
@@ -1940,36 +1910,6 @@
 		)
 		(uuid "3e54b9e1-4070-4e30-8ecc-664b428448b9")
 	)
-	(label "unconnected-(U7-PA7{slash}SPI1_MOSI-Pad13)"
-		(at 168.91 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44fa1b93-21c0-4ab3-92de-e96b0b15bde1")
-	)
-	(label "unconnected-(U7-PA4{slash}~{SPI1_SS}-Pad16)"
-		(at 168.91 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "486bafb5-dac9-4a10-bbd2-6807c2b85c28")
-	)
-	(label "unconnected-(U7-PB5-Pad30)"
-		(at 128.27 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "51a307c8-2e0e-4c4e-949b-db5d87006d59")
-	)
 	(label "RAK3172_SWDIO"
 		(at 189.23 123.19 180)
 		(effects
@@ -1980,125 +1920,16 @@
 		)
 		(uuid "609d7343-f340-436e-a352-97f4aa507814")
 	)
-	(label "unconnected-(U7-PA8-Pad19)"
-		(at 168.91 110.49 0)
+	(hierarchical_label "RAK3172_TX"
+		(shape output)
+		(at 128.27 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "6e798187-26a7-490c-b731-6c6a3b3015eb")
-	)
-	(label "unconnected-(U7-PA1-Pad6)"
-		(at 168.91 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71fcf049-ac07-4f39-b5cb-decc69233186")
-	)
-	(label "unconnected-(U7-PB2{slash}PIN_A2-Pad26)"
-		(at 128.27 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7e73b744-88c7-4820-8a9d-851aa29a5694")
-	)
-	(label "unconnected-(U7-PA15{slash}PIN_A4-Pad3)"
-		(at 168.91 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "873e989f-701f-4036-b56e-1ffebfe101c1")
-	)
-	(label "unconnected-(U7-PA9-Pad20)"
-		(at 168.91 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a061446-e0d8-4231-9e73-a29db39577d2")
-	)
-	(label "unconnected-(U7-RF-Pad12)"
-		(at 168.91 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9584eb4a-9406-4971-bc4e-8689d2949ecb")
-	)
-	(label "unconnected-(U7-PA0-Pad29)"
-		(at 168.91 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b48aebf7-6320-405f-a1b8-c3e6777e8e7f")
-	)
-	(label "unconnected-(U7-UART2_TX{slash}PA2-Pad2)"
-		(at 168.91 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca74cee1-375b-4d24-a4d2-65c636018033")
-	)
-	(label "unconnected-(U7-UART2_RX{slash}PA3-Pad1)"
-		(at 168.91 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7ad7a52-5694-476b-8e22-833c5dd78aed")
-	)
-	(label "unconnected-(U7-PA10{slash}PIN_A3-Pad25)"
-		(at 168.91 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea7a42a0-112c-4a21-9e85-86a4508e8b4f")
-	)
-	(label "unconnected-(U7-PA11{slash}SDA-Pad10)"
-		(at 168.91 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6691733-f2be-4bf1-995f-432a1655cc44")
-	)
-	(label "unconnected-(U7-PB12-Pad27)"
-		(at 128.27 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f7f424fa-8fb9-4008-947e-f6bf100ef308")
+		(uuid "1d83a505-12fa-40ce-8d98-97d848a25b27")
 	)
 	(hierarchical_label "RAK3172_RX"
 		(shape input)
@@ -2109,18 +1940,7 @@
 			)
 			(justify right)
 		)
-		(uuid "851daa47-5f47-4083-99fb-0e4ae05b6165")
-	)
-	(hierarchical_label "RAK3172_TX"
-		(shape output)
-		(at 128.27 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e1f22454-0a4c-4819-a272-0efb03e1b5ea")
+		(uuid "58e4b852-43ed-4cd8-b0a4-16da951a8222")
 	)
 	(symbol
 		(lib_id "Project:C")
@@ -2330,6 +2150,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 148.59 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part" "RAK3172-9-SM-I"
 			(at 148.59 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2602,7 +2433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 92.71 0)
+		(at 113.03 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2613,7 +2444,7 @@
 		(fields_autoplaced yes)
 		(uuid "55b3afae-77e0-48f6-ba09-022ad3efbf51")
 		(property "Reference" "#PWR042"
-			(at 119.38 99.06 0)
+			(at 113.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2624,7 +2455,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 97.79 0)
+			(at 113.03 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2634,7 +2465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 92.71 0)
+			(at 113.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2645,7 +2476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 92.71 0)
+			(at 113.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2656,7 +2487,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 92.71 0)
+			(at 113.03 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2963,7 +2794,7 @@
 	)
 	(symbol
 		(lib_id "Capstone_Symbols:R")
-		(at 119.38 88.9 0)
+		(at 113.03 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2973,7 +2804,7 @@
 		(dnp no)
 		(uuid "8e030074-d86f-4190-9d0c-a6b8168d62da")
 		(property "Reference" "R3"
-			(at 116.84 87.6299 0)
+			(at 110.49 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2984,7 +2815,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 116.84 90.1699 0)
+			(at 110.49 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2995,7 +2826,7 @@
 			)
 		)
 		(property "Footprint" "Capstone Footprints:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 117.602 88.9 90)
+			(at 111.252 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3006,7 +2837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 88.9 0)
+			(at 113.03 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3017,7 +2848,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 88.9 0)
+			(at 113.03 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3028,7 +2859,7 @@
 			)
 		)
 		(property "Digikey Part" "RMCF0603FT4K70"
-			(at 119.38 88.9 0)
+			(at 113.03 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3039,7 +2870,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 119.38 88.9 0)
+			(at 113.03 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3050,7 +2881,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 119.38 88.9 0)
+			(at 113.03 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3061,7 +2892,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 119.38 88.9 0)
+			(at 113.03 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

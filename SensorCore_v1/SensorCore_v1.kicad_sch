@@ -7,7 +7,7 @@
 	(title_block
 		(title "Sensor Core PCB")
 		(date "2026-09-08")
-		(rev "v1.1")
+		(rev "v1.0")
 		(company "Vector Drive (MXET)")
 		(comment 1 "Lucas Ngo")
 		(comment 2 "Abhi Chennuru")
@@ -4808,16 +4808,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 49.53) (xy 238.76 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eb758fe-7a57-4fd5-a064-c8df016e736e")
-	)
-	(wire
-		(pts
 			(xy 66.04 35.56) (xy 113.03 35.56)
 		)
 		(stroke
@@ -4985,6 +4975,16 @@
 			(type default)
 		)
 		(uuid "3fb9765d-3832-4076-831f-035e943c2c7b")
+	)
+	(wire
+		(pts
+			(xy 236.22 49.53) (xy 238.76 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42274550-b322-49a0-9d52-63ae3a6d7a73")
 	)
 	(wire
 		(pts
@@ -5205,6 +5205,16 @@
 			(type default)
 		)
 		(uuid "6c315251-35c8-4ebf-86d1-5fc61a9e7b3d")
+	)
+	(wire
+		(pts
+			(xy 236.22 52.07) (xy 238.76 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3f4301-562f-423b-a2f7-0d9225bdefa9")
 	)
 	(wire
 		(pts
@@ -5488,6 +5498,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 49.53) (xy 228.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1653b5d-4872-4335-9373-8c948e300c02")
+	)
+	(wire
+		(pts
 			(xy 236.22 116.84) (xy 252.73 116.84)
 		)
 		(stroke
@@ -5688,6 +5708,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 52.07) (xy 228.6 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb42d52c-98be-40d2-8d15-8d77e92b526f")
+	)
+	(wire
+		(pts
 			(xy 19.05 180.34) (xy 19.05 181.61)
 		)
 		(stroke
@@ -5695,16 +5725,6 @@
 			(type default)
 		)
 		(uuid "cbc14bf6-0c0f-429e-82d5-aadf8fee3adb")
-	)
-	(wire
-		(pts
-			(xy 223.52 52.07) (xy 238.76 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2af4896-9e4c-4a02-9d6b-c1e0c1431590")
 	)
 	(wire
 		(pts
@@ -5996,6 +6016,16 @@
 		)
 		(uuid "03f90545-a866-43b8-bd00-da01cca5d5ae")
 	)
+	(label "USART2_TX"
+		(at 215.9 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09377465-bbce-4b1b-981f-b1a290766dc3")
+	)
 	(label "VNTC2"
 		(at 185.42 91.44 180)
 		(effects
@@ -6087,7 +6117,7 @@
 		(uuid "2721d6c7-1c49-422a-bdce-1106efd19e22")
 	)
 	(label "USART2_TX"
-		(at 185.42 96.52 180)
+		(at 185.42 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6136,16 +6166,6 @@
 		)
 		(uuid "3c158ed3-3e2b-4226-9194-c8c3efb8ab12")
 	)
-	(label "USART2_RX"
-		(at 223.52 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e1a9a7f-a126-4a75-a2c2-8b8939f688f5")
-	)
 	(label "HS_OSC+"
 		(at 49.53 176.53 180)
 		(effects
@@ -6187,7 +6207,7 @@
 		(uuid "527a37d9-bb7a-486d-95af-d671a01ae12b")
 	)
 	(label "USART2_RX"
-		(at 185.42 93.98 180)
+		(at 185.42 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6295,16 +6315,6 @@
 			(justify left bottom)
 		)
 		(uuid "7328958e-1d01-4c02-8bd5-7b6f58af0fef")
-	)
-	(label "unconnected-(U1-PA8-Pad18)"
-		(at 170.18 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7563d022-bcd9-4d7d-9849-8b2b6a787838")
 	)
 	(label "GNSS_TIMPULSE"
 		(at 106.68 129.54 0)
@@ -6496,16 +6506,6 @@
 		)
 		(uuid "cdbbe8bf-2000-4064-8026-31fc8c31eab5")
 	)
-	(label "USART2_TX"
-		(at 223.52 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d0cff62b-4092-4d7d-922f-91dde4e8f5a6")
-	)
 	(label "I2C2_SCL2"
 		(at 106.68 109.22 0)
 		(effects
@@ -6545,6 +6545,16 @@
 			(justify right bottom)
 		)
 		(uuid "e39ec1ed-222a-4118-879c-af6d93dd7225")
+	)
+	(label "USART2_RX"
+		(at 215.9 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e51d7c0b-90ff-4d46-9e94-df47f57fa892")
 	)
 	(label "EN_LED_R"
 		(at 106.68 101.6 0)
@@ -8654,6 +8664,17 @@
 				)
 			)
 		)
+		(property "Digikey Part" "STM32C092KCT6"
+			(at 148.59 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "dd8ee655-22ed-48db-b8d1-d104d6144d27")
 		)
@@ -9071,7 +9092,7 @@
 				)
 			)
 		)
-		(property "Digikey Part" ""
+		(property "Digikey Part" "RMCF0603FT2K20"
 			(at 27.94 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10414,7 +10435,7 @@
 				)
 			)
 		)
-		(property "Digikey Part" ""
+		(property "Digikey Part" "RMCF0603FT2K20"
 			(at 27.94 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10536,6 +10557,129 @@
 			(project "SensorCore_v1"
 				(path "/7f033487-c793-47e5-80dd-4bcaea87e7a6"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capstone_Symbols:R")
+		(at 232.41 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "937e40f3-13d7-4a00-b964-2601a85be0b7")
+		(property "Reference" "R21"
+			(at 232.41 44.704 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 232.41 47.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capstone Footprints:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 232.41 47.752 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part" "RMCF0603FT4K70"
+			(at 232.41 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 232.41 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 232.41 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 232.41 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30075a40-0ff0-4726-90df-cb5d94bc5822")
+		)
+		(pin "2"
+			(uuid "6d4f73cb-78da-4836-b9e7-cb1f3d103bad")
+		)
+		(instances
+			(project "SensorCore_v1"
+				(path "/7f033487-c793-47e5-80dd-4bcaea87e7a6"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11389,6 +11533,129 @@
 			(project "SensorCore_v1"
 				(path "/7f033487-c793-47e5-80dd-4bcaea87e7a6"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capstone_Symbols:R")
+		(at 232.41 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0dfa91a-1fb4-461b-ad50-83f2237e0de2")
+		(property "Reference" "R22"
+			(at 232.41 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 232.41 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capstone Footprints:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 232.41 53.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part" "RMCF0603FT4K70"
+			(at 232.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 232.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 232.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 232.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54017c9d-37de-449e-823c-3d2c8c663832")
+		)
+		(pin "2"
+			(uuid "6761d90c-6aad-4737-999e-81252491b315")
+		)
+		(instances
+			(project "SensorCore_v1"
+				(path "/7f033487-c793-47e5-80dd-4bcaea87e7a6"
+					(reference "R22")
 					(unit 1)
 				)
 			)
